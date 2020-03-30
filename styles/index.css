@@ -1,0 +1,138 @@
+#navbar-text-color {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-color {
+    background: #ea9322;
+}
+
+.header-img {
+    opacity: 0.8;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.article-img {
+    border-radius: 15px;
+    box-shadow: 20px 20px 41px -10px rgba(0, 0, 0, 0.54);
+}
+
+.article-text {
+    padding-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    background: #234465;
+    text-align: center;
+    font-size: 30px;
+}
+
+.header-img:hover {
+    filter: blur(4px);
+}
+
+@media screen and (min-width: 992px) {
+    .main-content {
+        display: inline-block;
+        align-content: center;
+        width: 33%;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .main-content img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .main-content {
+        display: inline-block;
+        align-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-content {
+        display: inline-block;
+        align-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+.header-img-container {
+    position: relative;
+  }
+  
+  .header-img-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .header-img-container:hover .overlay {
+    opacity: 1;
+  }
+
+  .about {
+      color: darkslategray;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
+@media screen and (max-width: 992px) {
+    .about {
+        color: darkslategray;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+}
+
+  .alignleft {
+      float: left;
+  }
+
+  .red{
+    color:red;
+    }
+
+.form-area {
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+	}

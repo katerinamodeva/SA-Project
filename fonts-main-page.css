@@ -1,0 +1,35 @@
+@font-face{
+	font-family: "Vision";
+	font-weight: 400;
+	font-style: normal;
+	src:url('Vision-Bold.eot') format('embedded-opentype'),
+	url('Vision-Bold.woff') format('woff'),
+	url('Vision-Bold.woff2') format('woff2');
+}
+
+@font-face{
+
+	font-family: "Metropolis";
+	font-weight: 400;
+	font-style: normal;
+	src:url('Metropolis1920-Regular.otf') format('otf'),
+	url('Metropolis1920-Regular.ttf') format('ttf');
+	
+}
+@font-face{
+	font-family: "Solena";
+	font-weight: 400;
+	font-style: normal;
+	src:url('Solena-Regular.eot') format('embedded-opentype'),
+	url('Solena-Regular.woff') format('woff'),
+	url('Solena-Regular.woff2') format('woff2');
+}
+
+@font-face{
+	font-family: "Dekar";
+	font-weight: 400;
+	font-style: normal;
+	src:url('Dekar-Regular.eot') format('embedded-opentype'),
+	url('Dekar-Regular.woff') format('woff'),
+	url('Dekar-Regular.woff2') format('woff2');
+}
