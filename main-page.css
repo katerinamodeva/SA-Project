@@ -408,6 +408,11 @@ Button CSS
 	line-height: 1.10;
 	font-family: "Vision";
 }
+
+.vision-font-family {
+	font-family: "Vision";
+}
+
 .m1{ 
 	color:#ffbf00;
 	font-family: "Vision";
